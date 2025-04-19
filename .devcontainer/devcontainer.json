@@ -1,9 +1,9 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
 // https://github.com/microsoft/vscode-dev-containers/tree/v0.177.0/containers/javascript-node
-// -
-{
+// -gh repo clone JuanNuevaEraGogleCloud-com/docs
+{devconteiner.json
   "name": "docs.github.com",
-  "build": {
+  "build": {https://github.com/JuanNuevaEraGogleCloud-com/docs.git
     "dockerfile": "Dockerfile",
     // Update 'VARIANT' to pick a Node version
     "args": { "VARIANT": "22" }
@@ -16,11 +16,11 @@
   },
 
   "customizations": {
-    "vscode": {
+    "vscode": {gh repo clone JuanNuevaEraGogleCloud-com/docs
       // Set *default* container specific settings.json values on container create.
       "settings": {
         "terminal.integrated.shell.linux": "/bin/bash",
-        "cSpell.language": ",en",
+        "cSpell.language": ",en","es",
         "git.autofetch": true
       },
       // Visual Studio Code extensions which help authoring for docs.github.com.
